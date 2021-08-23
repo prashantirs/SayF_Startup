@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SayF - Landing Page</title>
+    <link rel="stylesheet" href="css/client.css">
+    <script src="https://kit.fontawesome.com/40361c9b31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="nav">
+            <img src="imgs/logo1.jpg" alt="logo">
+        </div>
+    
+        <section id="section1">
+            <div class="content">
+                <h1>Join our wait list to get early access to the app</h1>
+                <p>SayF is a personal finance app that helps you to <span>save, invest & optimize</span> your spending for a better future.</p>
+                <a href="https://wjounocadgs.typeform.com/to/UZL3IofL">Get Early Access</a>
+            </div>
+            <div class="photo">
+                <img src="imgs/cover.png" id="photo">
+            </div>
+        </section>
+    </div>
+
+    <section id="section2">
+        <p>"Our beta members play an important role in helping us shape SayF. As we get close to our launch, we will soon share you the info on how you can get involved."</p>
+    </section>
+
+    <section id="section3">
+        <div class="row">
+            <div class="col footer-img">
+                <img src="imgs/logo1.jpg" alt="">
+            </div>
+            <div class="col">
+                <h1>Location</h1>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col">
+                <h1>Support</h1>
+                <p><a href="#">support@sayf.in</a></p>
+            </div>
+            <div class="col">
+                <h1>Follow us</h1>
+                <ul class= "icons">
+
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+                    <li><a href="https://www.instagram.com/sayfinvest/"><i class="fab fa-instagram"></i></a></li>
+
+                    <li><a href="https://www.linkedin.com/company/sayfindia/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169; 2021 sayf.in</p>
+    </div>
+
+
+    <script>
+        const photo = document.getElementById('photo');
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            photo.style.top= -value*.4 + 'px';
+        });
+    </script>
+</body>
+</html>
